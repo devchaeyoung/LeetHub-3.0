@@ -110,13 +110,13 @@ function constructGitHubPath(
       const path = useDifficultyFolder
         ? `${language}/${difficulty}/${problem}/${filename}`
         : `/${language}/${problem}/${filename}`;
-      return `https://api.github.com/repos/${hook}/contents/chaeyoung/${path}`;
+      return `https://api.github.com/repos/${hook}/contents/ChaeYoungJin/${path}`;
     }
   }
   const path = useDifficultyFolder
     ? `${basePath}/${difficulty}/${problem}/${filename}`
     : `${problem}/${filename}`;
-  return `https://api.github.com/repos/${hook}/contents/chaeyoung/${path}`;
+  return `https://api.github.com/repos/${hook}/contents/ChaeYoungJin/${path}`;
 }
 
 const parseCustomCommitMessage = (text, problemContext) => {
